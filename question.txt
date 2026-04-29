@@ -1,0 +1,29 @@
+1. Why is version control better than keeping many copied files with different names?
+It provides a clean, organized history in a single file location, allowing you to track specific changes, revert to previous versions easily, and collaborate without manual file clutter (like "final_v2_new.doc").
+
+2. Why is git status often called a radar, compass, or checkpoint command?
+Because it gives you situational awareness. It tells you exactly where you are, which files have changed, and what steps you need to take next (like adding or committing).
+
+3. What is the purpose of the staging area?
+It acts as a buffer or "loading zone" where you can pick and choose exactly which changes to include in your next snapshot (commit) before officially saving them.
+
+4. What is the difference between an untracked file and a modified file?
+An untracked file is a new file that Git hasn't seen before, while a modified file is an existing file already known to Git that has been changed since the last commit.
+
+5. Why does Git need your name and email before committing?
+To provide accountability and "authorship." It ensures every change in the project history is linked to a specific person, which is essential for collaboration.
+
+6. What does git init actually create?
+It creates a hidden folder named .git inside your project directory, which contains all the internal tracking data and history for the repository.
+
+7.Why is it useful to write meaningful commit messages?
+They act as a logbook that helps you and your teammates understand the "why" behind changes when looking back through the project history months later.
+
+8.What did you find easiest in this chapter?
+(Personal answer) Usually, using pwd and ls is the easiest part because the feedback is immediate and simple to understand.
+
+9.What did you find most confusing in this chapter?
+(Personal answer) Many find the concept of the staging area (the middle step between saving a file and committing it) the most confusing at first.
+
+10. How does VS Code make Git easier to use?
+It provides a visual interface (GUI) with color-coded file statuses, side-by-side "diff" views to see changes, and buttons for adding/committing, so you don't have to memorize every terminal command.
