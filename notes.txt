@@ -1,1 +1,1 @@
-This file is used to compare staged and unstaged changes.
+Edited notes for exercice 2.
